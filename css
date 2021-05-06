@@ -53,3 +53,100 @@ nav ul li a:hover{
  .upload-btn:hover{
       transform: scale(0.9)
 }
+.content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify -content: center;
+        align-items: center;
+        color: #fff;
+}
+.content h1{
+        font-size: 52px;
+        font-weight: 600;
+        margin-bottom: 20px;
+}
+.content input{
+        width: 90%;
+        max-width: 840px
+        height: 55px;
+        border-radius: 30px;
+        border: none;
+        padding: 0 30px:
+        margin: 20px 0;
+        font-size: 16px;
+}
+::placeholder{
+        font-wieght: 500:
+        font-size: 16px;
+}
+.content a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+}
+.content a:hover{
+        color: #ff5361
+}      
+.gallery{
+   padding-left: 10%;
+   padding-right: 10%;
+   box-sizing: border-box;
+   margin: 40px 0;
+}
+.gallery h2{
+  color: #535353
+  font-weight: 500;
+  font-size: 26px:
+  margin: 20px 12px;
+}
+.masonary{
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1800px;
+  margin: auto;
+  width: 100%
+}
+.m-block{
+  width: 33.33%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.m-block img{
+  width: 100%;
+  curser: pointer;
+  transition: transform 1s;
+}
+.m-block img:hover{
+  transform: scale(1.05)
+}
+.explore-btn{
+  display: block;
+  width: 50%;
+  max-width: 350px;
+  background: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 0;
+  border-radius: 30px;
+  margin: 60px auto;
+  font-size: 18px;
+  transition: transform 0.5s;
+}
+
+.explore-btn:hover{
+  transform: scale(0.9);
+}
+.customers{
+   padding-left: 10%;
+   padding-right: 10%;
+   box-sizing: border-box;
+   margin: 80px 0;
+}
+.customers h2{
+  color: #535353;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 60px 0;
+  text-align: center;
+}
